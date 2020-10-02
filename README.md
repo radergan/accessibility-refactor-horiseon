@@ -1,5 +1,5 @@
 # Horiseon Website - Refactoring & Accessibility
-https://radergan.github.io/accessibility-refactor-horiseon/  | [Go to the site URL](https://radergan.github.io/accessibility-refactor-horiseon/)
+###### end result here: https://radergan.github.io/accessibility-refactor-horiseon/
 
 ## Summary 
 A refactor of the HTML/CSS for Horiseon Social Solution Services, Inc, a marketing company, was requested; the objective was to increase the website's accessibility. Efforts were made to:
@@ -21,11 +21,12 @@ Accessibility standards will be met when:
 - The title element is concise and descriptive
 
 
-## Work
-A small screenshot of the final product is shown to the right. The work was spread across three types of effort, to meet the acceptance criteria:<img align="right" width="400" src="./assets/images/horiseon-site-mockup.jpg" alt="Final Mockup: Horiseon Website">
+## Division of Tasks
+<img align="right" width="300" src="./assets/images/horiseon-site-mockup.jpg" alt="Final Mockup: Horiseon Website">
+A small screenshot of the final product is shown to the right. The work was spread across three types of effort, to meet the acceptance criteria:
 1. Semantics
 2. Alteration/consolidation of CSS (necessary, to point to new semantic HTML structures)
-3. Performance
+3. Performance (load time resolution viewed as necessary for accessibility improvements)
 
 ### Semantics
 - Changed the class="header" div to a header block
@@ -37,19 +38,15 @@ A small screenshot of the final product is shown to the right. The work was spre
 
 ### Style Cleanup / Consolidation
 - Lines of CSS reduced by ~40% 
-	- Former number of lines: 200
-	- Current number of lines: 120
-
-- Consolidation of CSS classes:
-	- Number of former class selectors: 31
-	- Number of current class selectors:  17
+- Former number of lines: 200
+- Current number of lines: 120
+- Number of class selectors: 31
+- Number of current class selectors:  17
 
 ### Performance Improvements
-    - The size of the images being pulled in to the primary-content-section
-      as well as the hero-image section were not conducive to loading the
-      page in a reasonable amount of time. Compressing these allowed for
+    The size of the images being pulled in to the primary-content-section as well as the hero-image section were not conducive to loading the page in a reasonable amount of time. Compressing these allowed for
       a decent boost in pageload.
 
 ### Primary Referential Sources
- - [Accessibility | MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility) | https://developer.mozilla.org/en-US/docs/Web/Accessibility
- - [WBC Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles/) | https://www.w3.org/WAI/fundamentals/accessibility-principles/
+ - Web Accessibility - Mozilla  | https://developer.mozilla.org/en-US/docs/Web/Accessibility
+ - WBC Accessibility Principles | https://www.w3.org/WAI/fundamentals/accessibility-principles/
