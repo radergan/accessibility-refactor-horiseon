@@ -37,11 +37,9 @@ A small screenshot of the final product is shown to the right. The work was spre
 - Wrapped the body's main content in a main block to designate what is main from what is inside the header, footer or hero-image areas
 
 ### CSS Cleanup / Consolidation
-- Lines of CSS reduced by ~40% 
-- Former number of lines: 200
-- Current number of lines: 120
-- Number of class selectors: 31
-- Number of current class selectors:  17
+- Lines of CSS reduced by ~40% (down to 120, from 200)
+- Number of class selectors reduced (consolidated to 17, down from 32)
+- Improved the logical flow and grouping of related styles
 
 ### Performance Improvements
 The size of the images being pulled in to the primary-content-section as well as the hero-image section were not conducive to loading the page in a reasonable amount of
