@@ -14,7 +14,7 @@ a {
     float:right;
 }
 body {
-    font-size:16px;
+    font-size:16px; /*base size*/
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
