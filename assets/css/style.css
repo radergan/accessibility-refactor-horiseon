@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+body {
+    font-size:16px;
+    background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* headings: originally-cited sizes before 2020-10-01 refactor
+h1: 48px
+h2: 36px
+h3: 20px
+recalculated as em below, font-size declared directly in body above
+*/
+h1{
+    font-size: 3em;
+}
+h2 {
+    font-size: 2.25em;
+}
+h3, nav{
+    font-size: 1.25em;
+}
+
+/*Header area containing company name, navigation*/
+.header {
+    padding:20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.header nav ul {
+    list-style-type: none;
+}
+.header nav ul li {
+    margin-left: 25px;
+}
+.company-name, .header nav ul li{
+    display:inline-block;
+}
+.company-name .seo {
+    color: #d9dcd6;
+}
+
+/*Large hero image below header*/
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*the <main> block holding all readable body content*/
+.main{
+    margin-top:25px;
+    width:100%;
+}
+
+/*primary content wrapper*/
+.primary-content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*vertically content divs*/
+.primary-content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.primary-content-section h2{
+    margin-bottom:20px;
+}
+.primary-content-section img {
+    max-height: 200px;
+    margin: auto;
+}
+.primary-content-section img.float-left{
+    margin-right:25px;
+}
+.primary-content-section img.float-right{
+    margin-left:25px;
+}
+
+/*Right <aside> bar holding benefits information*/
+.benefits {
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    margin-right:20px;
+    height: 100%;
+    background-color: #2589bd;
+}
+.benefit-section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.benefit-section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Footer, clear floats*/ 
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
