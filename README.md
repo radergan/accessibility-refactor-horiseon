@@ -19,7 +19,6 @@ Accessibility standards will be met when:
 - All image elements have a corresponding alt property
 - Heading attributes fall in sequential order
 - The title element is concise and descriptive
-- There are no longer significant rendering delays in the body load time
 
 ## Division of Tasks
 <img align="right" width="300" src="./assets/images/horiseon-site-mockup.jpg" alt="Final Mockup: Horiseon Website">
