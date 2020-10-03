@@ -23,10 +23,11 @@ Accessibility standards will be met when:
 
 ## Division of Tasks
 <img align="right" width="300" src="./assets/images/horiseon-site-mockup.jpg" alt="Final Mockup: Horiseon Website">
-A small screenshot of the final product is shown to the right. The work was spread across three types of effort, to meet the acceptance criteria:
-- Semantics
-- Alteration/consolidation of CSS (coinciding with new semantic HTML structures)
-- Performance (load time resolution viewed as necessary for accessibility improvements)
+*A small screenshot of the final product is shown to the right*. The work was spread across three types of effort, to meet the acceptance criteria:
+
+- Refactoring the body structure using semantics
+- Alteration/consolidation of CSS to match structural changes
+- Diagnosing and fixing performance issues
 
 ### Semantic / Structure Changes
 - Changed the class="header" div to a header block
