@@ -24,17 +24,19 @@ Accessibility standards will be met when:
 ## Division of Tasks
 <img align="right" width="300" src="./assets/images/horiseon-site-mockup.jpg" alt="Final Mockup: Horiseon Website">
 A small screenshot of the final product is shown to the right. The work was spread across three types of effort, to meet the acceptance criteria:
-1. Semantics
-2. Alteration/consolidation of CSS (coinciding with new semantic HTML structures)
-3. Performance (load time resolution viewed as necessary for accessibility improvements)
+- Semantics
+- Alteration/consolidation of CSS (coinciding with new semantic HTML structures)
+- Performance (load time resolution viewed as necessary for accessibility improvements)
 
-### Semantic Changes
+### Semantic / Structure Changes
 - Changed the class="header" div to a header block
 - Changed the div within the header block to a nav block
 - Changed all references to .header div selector to .header nav within the style.css file
 - Fixed an anchor that pointed to a div ID that didn't exist, causing broken functionality
-- The side-panel in the main body content was changed from div to the favorably-semantic 'aside'
-- Wrapped the body's main content in a main block to designate what is main from what is inside the header, footer or hero-image areas
+- The side-panel in the main body content was changed from div to the more-semantic-er 'aside'
+- Wrapped the body's main content in a main block to designate the main content block
+- Added clarifying comments to the main's root page
+- Standardized spacing and indentation amongst page elements
 
 ### CSS Cleanup / Consolidation
 - Lines of CSS reduced by ~40% (down to 120, from 200)
