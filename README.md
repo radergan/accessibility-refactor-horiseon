@@ -20,8 +20,9 @@ Accessibility standards will be met when:
 - Heading attributes fall in sequential order
 - The title element is concise and descriptive
 
-## Division of Tasks
+## Fulfillment of Criteria
 <img align="right" width="300" src="./assets/images/horiseon-site-mockup.jpg" alt="Final Mockup: Horiseon Website">
+
 **A small screenshot of the final product is shown to the right**. 
 
 The work was spread across three types of effort, to meet the acceptance criteria:
