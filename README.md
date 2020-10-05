@@ -22,7 +22,9 @@ Accessibility standards will be met when:
 
 ## Division of Tasks
 <img align="right" width="300" src="./assets/images/horiseon-site-mockup.jpg" alt="Final Mockup: Horiseon Website">
-*A small screenshot of the final product is shown to the right*. The work was spread across three types of effort, to meet the acceptance criteria:
+**A small screenshot of the final product is shown to the right**. 
+
+The work was spread across three types of effort, to meet the acceptance criteria:
 
 - Refactoring the body structure using semantics
 - Alteration/consolidation of CSS to match structural changes
@@ -33,7 +35,7 @@ Accessibility standards will be met when:
 - Changed the div within the header block to a nav block
 - Changed all references to .header div selector to .header nav within the style.css file
 - Fixed an anchor that pointed to a div ID that didn't exist, causing broken functionality
-- The side-panel in the main body content was changed from div to the more-semantic-er 'aside'
+- The side-panel in the main body content was changed from div to the semantic 'aside'
 - Wrapped the body's main content in a main block to designate the main content block
 - Added clarifying comments to the main's root page
 - Standardized spacing and indentation amongst page elements
