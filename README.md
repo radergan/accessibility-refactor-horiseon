@@ -50,6 +50,9 @@ The work was spread across three types of effort, to meet the acceptance criteri
 The size of the images being pulled in to the primary-content-section as well as the hero-image section were not conducive to loading the page in a reasonable amount of
 time. Compressing these images improved the page load time significantly.
 
+## Conclusion
+The client's CSS is now neater, less bloated and more logically structured. Their core HTML is now more semantic, and issues with syntax were corrected to that all links function properly. All images have accompanying alt tags. These efforts are all in keeping with best-practices for readability. Page load time was being bogged-down by large 14+ megabyte image files - the images were compressed to improve page performance. It is highly recommended that the client look into further work on their site to make it mobile-friendly, which was outside of the scope of this work, but necessary to enhance their SEO and accessibility concerns.
+
 ### Utilized References
  - Web Accessibility - Mozilla  | https://developer.mozilla.org/en-US/docs/Web/Accessibility
  - WBC Accessibility Principles | https://www.w3.org/WAI/fundamentals/accessibility-principles/
